@@ -61,7 +61,7 @@ if __name__ == '__main__':
             try:
                 result = wikipedia.summary(query, sentences=1)
                 if result is None:
-                    client = wolframalpha.Client("RXWU48-EK5QYYE6R6")
+                    client = wolframalpha.Client("Client-id")#here u need to provide ur own clientID
                     result = next(client.query(query).results).text
                 print("speaking results ")
                 print(result)
