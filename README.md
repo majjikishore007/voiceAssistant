@@ -1,5 +1,13 @@
 # voiceAssistant
-this a voice assistant
-i have used python ,
-it have some functions like opening webrowser,youtube ,and it also have function like searching for short answers ,
-i have used api from wikipedia and WolframAlpha(it is search engine  which gives short answers)
+## this a simple  voice assistant
+
+# TechStack
+  python
+ #  api's used
+ * wikipedia api
+ * wolframAlpha search Api
+ 
+ # features 
+ * opening apps like youtube and webrowse on voice commands 
+ * searching for short answers
+ 
